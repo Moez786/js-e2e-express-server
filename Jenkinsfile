@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    Stages {
+    stages {
         stage ("vcs"){
             steps {
                 git url: "https://github.com/GitPracticeRepo/js-e2e-express-server.git",
